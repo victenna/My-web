@@ -1,46 +1,61 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ваша страница</title>
-    <style>
+ <html>
+ <head>
+ <style>
+
+/* Стилизация заголовка и меню */
         header {
-            text-align: center;
+            text-align: center; /* Выравнивание содержимого заголовка по центру */
         }
 
         header img {
-            width: 50%;
-            height: auto;
+            width: 50%; /* Ширина изображения на 100% от ширины родителя */
+            height: auto; /* Автоматическая высота для сохранения пропорций изображения */
         }
-
-        nav {
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            
+        
+        
+    nav ul {
+            list-style-type: none; /* Убрать маркеры списка */
+            padding: 0; /* Убрать внутренние отступы списка */
+            margin: 0; /* Убрать внешние отступы списка */
+            display: flex; /* Расположить элементы горизонтально */
+            justify-content: center; /* Выравнивание элементов списка по центру */
         }
 
         nav ul li {
-            display: inline; /* Элементы списка в одну линию */
-            margin-right: 20px; /* Отступ справа */
+            margin: 0 15px; /* Добавить небольшие отступы между элементами списка */
         }
+        
+        
 
-        nav a {
-            text-decoration: none;
-            color: black;
+        nav ul li a {
+            text-decoration: none; /* Убрать подчеркивание у ссылок */
+            color: black; /* Цвет текста для ссылок */
             font-size: 20px; /* Увеличение размера шрифта */
         }
-    </style>
-</head>
-<body>
 
-<header>
-    <img src=https://victenna.github.io/Header3.png>
-</header>
-
+  
+   
+    h2 {
+            font-size: 22px; /* Увеличенный размер шрифта для заголовков */
+            font-weight: bold; /* Жирный шрифт для заголовков */
+            margin-top: 20px; /* Отступ сверху для разделения разделов */
+        }
+   
+   .content {
+        width: 50%; /* Установка ширины контента равной ширине изображения */
+        margin: auto; /* Центрирование блока */
+        color: black;
+        font-size: 18px;
+    }
+   
+  </style>
+  </head>
+ <body>
+ <header>
+  <img src=https://victenna.github.io/Header3.png>
+  
+ </header>
+ 
 <nav>
     <ul>
         <li><a href="index_home.html">Home</a></li>
@@ -50,6 +65,8 @@
         <li><a href="#">Contacts</a></li>
     </ul>
 </nav>
+ 
+ <div class="content">
 
 <!-- Остальное содержимое страницы -->
 <p>1.	Statistical evaluation of some parameters of antenna arrays with electronic beam control, Journal of Radio Engineering and Electronics,1971,12, pp.2188-2192 (in Russian version).</p> 
@@ -69,6 +86,7 @@
         <p>  14.	Compact Diversity Antenna System for Remote Control Automotive Applications, IEEE Transactions on vehicular technology, 2005, 5, pp. 379-382.</p> 
         <p>  15.	Three port multifunction printed antenna system for automotive application, 2010, Antennas propagation society international symposium IEEE.</p>
 
+</div>
 </body>
 </html>
 
