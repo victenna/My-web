@@ -1,6 +1,9 @@
+<!DOCTYPE html>
 <html>
 <head>
     <style>
+        /* Ваши текущие стили для header, nav и т.д. */
+        
         /* Стилизация заголовка и меню */
         header {
             text-align: center; /* Выравнивание содержимого заголовка по центру */
@@ -10,20 +13,15 @@
             width: 50%; /* Ширина изображения на 100% от ширины родителя */
             height: auto; /* Автоматическая высота для сохранения пропорций изображения */
         }
-        
-    h2 {
-            font-size: 22px; /* Увеличенный размер шрифта для заголовков */
-            font-weight: bold; /* Жирный шрифт для заголовков */
-            margin-top: 20px; /* Отступ сверху для разделения разделов */
+
+        .content {
+            width: 50%;
+            margin: auto;
+            color: black;
+            font-size: 18px;
         }
-   .content {
-        width: 50%; /* Установка ширины контента равной ширине изображения */
-        margin: auto; /* Центрирование блока */
-        color: black;
-        font-size: 18px;
-    }
         
-        nav ul {
+         nav ul {
             list-style-type: none; /* Убрать маркеры списка */
             padding: 0; /* Убрать внутренние отступы списка */
             margin: 0; /* Убрать внешние отступы списка */
@@ -41,14 +39,16 @@
             font-size: 20px; /* Увеличение размера шрифта */
         }
 
-</style>
+        .image-container {
+            text-align: center; /* Центрирование изображения */
+            margin-top: 20px;} /* Отступ сверху */
+    
+    </style>
 </head>
 <body>
 
 <header>
     <img src="Headerr.jpg">
-   
-   
     <nav>
         <ul>
             <li><a href="index_home.html">Home</a></li>
@@ -59,11 +59,46 @@
         </ul>
     </nav>
 </header>
+
+<div class="image-container">
+    <img src="Book1.png">
+</div>
+
+<div class="content">
+    <p>This book throws a lifeline to designers wading through mounds of antenna array patents looking
+    for the most suitable systems for their projects. Drastically reducing the research time required to
+    locate solutions to the latest challenges in automotive communications, it sorts and systematizes
+
+    material on cutting-edge antenna arrays that feature multi-element communication systems with
+    enormous potential for the automotive industry. These new systems promise to make driving
+    safer and more efficient, opening up myriad applications, including vehicle-to-vehicle traffic that
+    prevents collisions, automatic toll collection, vehicle location and fine-tuning for cruise control
+    systems. This book&#39;s exhaustive coverage begins with currently deployed systems, frequency
+    ranges and key parameters. It proceeds to examine system geometry, analog and digital beam
+    steering technology (including “smart” beams formed in noisy environments), maximizing
+    signal-to-noise ratios, miniaturization, and base station technology that facilitates in-car
+    connectivity while on the move. An essential guide for technicians working in a fast-developing
+    field, this new volume will be warmly welcomed as a powerful aid in their endeavors.  
+</div>
+
+<div class="image-container">
+    <img src="Book2.png">
+</div>
+
 <div class="content">
 
-    <p><a href="Books/Automotive Antenna Design.pdf" target="_blank">1.Automotive Antenna Design and Applications</a></p>
-    <p><a href="Books/Antenna Arrays.pdf" target="_blank">2.Antenna Arrays and Automotive Applications</a></p>
-
+    <p>This book throws a lifeline to designers wading through mounds of antenna array patents looking for
+    the most suitable systems for their projects. Drastically reducing the research time required to locate
+    solutions to the latest challenges in automotive communications, it sorts and systematizes material on
+    cutting-edge antenna arrays that feature multi-element communication systems with enormous potential for
+    the automotive industry. These new systems promise to make driving safer and more efficient, opening up
+    myriad applications, including vehicle-to-vehicle traffic that prevents collisions, automatic toll 
+    collection, vehicle location and fine-tuning for cruise control systems. This book's exhaustive coverage
+    begins with currently deployed systems, frequency ranges and key parameters. It proceeds to examine system
+    geometry, analog and digital beam steering technology (including “smart” beams formed in noisy environments),
+    maximizing signal-to-noise ratios, miniaturization, and base station technology that facilitates in-car
+    connectivity while on the move. An essential guide for technicians working in a fast-developing field, 
+    this new volume will be warmly welcomed as a powerful aid in their endeavors.
 </div>
 </body>
 </html>
