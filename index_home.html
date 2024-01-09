@@ -1,20 +1,7 @@
  <html>
  <head>
  <link rel="stylesheet" type="text/css" href="style.css">
-<style>
 
-  nav a {
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    nav a.active {
-      font-weight: bold;
-    }
-</style>
   </head>
  <body>
  <header>
@@ -86,21 +73,5 @@
        
 </div>
 
-<script>
-    const links = document.querySelectorAll("nav a");
-
-    links.forEach((link) => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-
-        links.forEach((link) => {
-          link.classList.remove("active");
-        });
-
-        link.classList.add("active");
-      });
-    });
-  </script>
-  
 </body>
 </html>
