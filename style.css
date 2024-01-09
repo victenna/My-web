@@ -34,6 +34,23 @@
             font-size: 20px; /* Увеличение размера шрифта */
         }
 
+        .image-container {
+            text-align: center; /* Центрирование изображения */
+            margin-top: 20px;} /* Отступ сверху */
+            
+            
+        /* Добавление новых стилей */
+        .centered-link {
+            
+            margin-left: 630px; /* Отступ слева */
+            
+            
+
+            margin-top: 20px; /* Отступ сверху */
+            font-size: 20px; /* Размер шрифта */
+            /* можно добавить другие стили, если нужно */
+            }
+
          h1 {
     
             font-family: Times New Roman;
