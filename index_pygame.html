@@ -1,8 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" type="text/css" href="style.css">
-    <stile>
+    <style>
+        
+        /* Стилизация заголовка и меню */
+        header {
+            text-align: center; /* Выравнивание содержимого заголовка по центру */
+        }
+
+        header img {
+            width: 50%; /* Ширина изображения на 100% от ширины родителя */
+            height: auto; /* Автоматическая высота для сохранения пропорций изображения */
+        }
+        
+        .content {
+        width: 50%; /* Установка ширины контента равной ширине изображения */
+        margin: auto; /* Центрирование блока */
+        color: black;
+        font-size: 18px;
+        }
+         
+        
+        
+   
+    nav ul {
+            list-style-type: none; /* Убрать маркеры списка */
+            padding: 0; /* Убрать внутренние отступы списка */
+            margin: 0; /* Убрать внешние отступы списка */
+            display: flex; /* Расположить элементы горизонтально */
+            justify-content: center; /* Выравнивание элементов списка по центру */
+        }
+
+        nav ul li {
+            margin: 0 15px; /* Добавить небольшие отступы между элементами списка */
+        }
+
+        nav ul li a {
+            text-decoration: none; /* Убрать подчеркивание у ссылок */
+            color: black; /* Цвет текста для ссылок */
+            font-size: 20px; /* Увеличение размера шрифта */
+        }
+        
+            nav a {
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    nav a.active {
+      font-weight: bold;
+    }
+        
+
+    .video-container {
+            position: relative;
+            height: 4000px; /* Достаточная высота для всех элементов */
+        }
+
+        .video {
+            position: absolute;
+            
+        }
+         </style>
+         
+          <style>
+
+        .clickable-text {
+            position: absolute;
+            /* Дополнительные стили для текста */
+        }
 
        /* Примеры координат для первых двух видео и текстов */
         #video1 { top: 100px; left: 600px; }
@@ -184,8 +252,6 @@
         
         #video60{ top: 3000px; left: 1650px; }
         #text60 { top: 2980px; left: 1750px; }
-              
-
 
         /* Добавьте координаты для остальных видео и текстов */
     </style>
@@ -204,7 +270,6 @@
             <li><a href="index_books.html">Books</a></li>
             <li><a href="index_prototypes.html">Prototypes</a></li>
             <li><a href="index_pygame.html">Pygame</a></li>
-            <li><a href="index_lessons.html">Turtle Lessons</a></li>
         </ul>
     </nav>
     </header>
@@ -453,16 +518,8 @@
         <iframe id="video60" class="video" src="https://www.youtube.com/embed/PNfxxlXnHEU"></iframe> 
         <div class="clickable-text" id="text60">
           <a href="https://github.com/victenna/Pascal-Law">Text 60</a> </div>
-        
-        
-        
-        
-   
-
-        
 
         <!-- Продолжайте добавлять видео и тексты -->
     </div>
-  
 </body>
 </html>
